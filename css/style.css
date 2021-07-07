@@ -1,0 +1,52 @@
+* {
+    font-family: 'Encode Sans SC', sans-serif;
+    box-sizing: border-box; /* para de adiconar tamanho no objetio, subrtaindo e mantendo a largura que eu determino */
+}
+body{
+    background-color: #73b1e0;
+}
+
+#login{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgba(204, 204, 204, 0.699);
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10%;
+}
+label{
+    display: block;
+    padding-left: 40px;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+input  {
+    width: 80%;
+    margin: 25px 40px;
+    border-radius: 5px;
+    border:none;
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgba(160, 213, 235, 0.747);
+    width: 40%;
+    margin: 4%;    
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    transition: background;
+    transition-duration: .4s ;
+}
+
+.btn:hover{
+    background-color: #0476d0;
+    cursor: pointer;
+}
